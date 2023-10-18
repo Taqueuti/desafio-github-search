@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+
+
 android {
     compileSdk 32
 
@@ -29,6 +31,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'br.com.igorbag.githubsearch'
 }
 
 dependencies {
